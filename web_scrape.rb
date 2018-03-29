@@ -31,37 +31,3 @@ end
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-
-doc.css('.board').css('.highlightPost').each do |highlightPost|
-	title		 = highlightPost.css('.file-col').inner_text
-	user_name 	 = highlightPost.css('.name-col').inner_text
-	subject		 = highlightPost.css('.subject').inner_text
-    
-	puts title
-	puts user_name
-    puts subject
-    puts '------------------------------------------'
->>>>>>> 3da429de0f841b46720f40710ec03ebdb9e4a12a
-
-
